@@ -16,8 +16,7 @@ app.get("/", (req, res) => {
 
 // This is the IPFS cid/bafy handler for the anon metrics API
 app.get("/metrics/:cid", (req, res) => {
-    res.send(`What CID do you want to lookup? ${req.params.cid}?
-    `)
+    res.json(dogs[parseInt(req.params.id) - 1])
 })
 
 // dont do anything with this- its important
