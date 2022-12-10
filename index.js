@@ -4,8 +4,8 @@ const app = express()
 
 const port = 8080
 
-app.get("/", (req, res) => {
-    res.send("yooooo!")
+app.get("/metrics", (req, res) => {
+    res.send("bafy...")
 })
 
 app.listen(port, () => {
