@@ -13,3 +13,5 @@ app.listen(port, () => {
 })
 
 // HTTP => POST, GET, PUT/PATCH, 
+
+// work more on the request and response
