@@ -2,7 +2,7 @@ const express = require('express')
 const res = require('express/lib/response')
 const app = express()
 
-const port = 8080
+const port = 2222
 
 app.get("/metrics", (req, res) => {
     res.send("bafy...")
