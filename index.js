@@ -4,6 +4,12 @@ const app = express()
 
 const port = 2222
 
+const cid = [
+    { bafy: "Qmb9en2Qsh3fKsXPCCT8CMhsh6g69rkgMXpE3AsL89WU9m", requests: "222" },
+    { bafy: "QmY3h7XrLFSFWwcdLDAXU6X5Cbv3jMRLyK42inuBSQGrJS", requests: "22" },
+    { bafy: "QmVYD1TBRWJDbay7ynn4SjZjGXzFMKdgyzWyDYdh8cNbyX", requests: "2" },
+]
+
 app.get("/", (req, res) => {
     res.send("bafy...")
 })
