@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log('listening on port ${port}')
+    console.log(`listening on port ${port}`)
 })
 
 // HTTP => POST, GET, PUT/PATCH, 
