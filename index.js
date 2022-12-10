@@ -11,7 +11,7 @@ const cid = [
 ]
 
 app.get("/", (req, res) => {
-    res.send("bafy...")
+    res.json(cid)
 })
 
 // This is the IPFS cid/bafy handler for the anon metrics API
