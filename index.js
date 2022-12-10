@@ -8,6 +8,10 @@ app.get("/metrics", (req, res) => {
     res.send("bafy...")
 })
 
+// This is the IPFS cid/bafy handler for the anon metrics API
+app.get("/metrics", (req, res) => {
+    res.send("bafy...")
+})
 app.listen(port, () => {
     console.log(`listening on port ${port}`)
 })
