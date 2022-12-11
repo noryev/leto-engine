@@ -12,6 +12,8 @@ const cid = [
     { bafy: "QmVYD1TBRWJDbay7ynn4SjZjGXzFMKdgyzWyDYdh8cNbyX", requests: "2" },
 ]
 
+// Sample of a Gateway API
+
 app.get("/", (req, res) => {
     res.json(cid)
 })
