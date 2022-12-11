@@ -4,7 +4,8 @@ const app = express()
 
 const port = 2222
 
-// currently configured for leto.gg/metrics
+// currently configured for leto.gg/metrics - This is a sample response
+
 const cid = [
     { bafy: "Qmb9en2Qsh3fKsXPCCT8CMhsh6g69rkgMXpE3AsL89WU9m", requests: "222" },
     { bafy: "QmY3h7XrLFSFWwcdLDAXU6X5Cbv3jMRLyK42inuBSQGrJS", requests: "22" },
