@@ -9,7 +9,7 @@ transfer domain Dec 16th 2022- Cloudflare configuration checks out for now- Dec 
 
 ## Development Notes
 
- What Log Parsing Features to look for?(ingest quickly, parse quickly, get to intrepretation fast!
+ What Log Parsing Features to look for?(ingest quickly, parse quickly, get to intrepretation)
 - Automation
 - Customization
 - Visualization
