@@ -12,11 +12,6 @@ https://leto.metrics.gg/cid/ and leto.metrics.gg will respond with something lik
 { "value": "/ipfs/QmPqrEHJTex2CPbqNULCmbSFJT3boBwAAfMb5UjvXtKjEe",
 "requests": "93", }
 
-
-Notes:
-
-- Cloudflare Cache is [limited](https://developers.cloudflare.com/workers/platform/limits/#cache-api-limits) to 200 MB size objects.
-
 ## Usage
 
 Leto Gateway provides IPFS path style resolutions `https://leto.gg/ipfs/{cid}` as follows:
