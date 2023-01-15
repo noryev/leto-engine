@@ -3,6 +3,7 @@
   Anonymous metrics engine built on top of the Leto Caching Gateway
  
  ## Anonymous Gateway Metrics API 
+ 
 With a simple public website or a HTTP GET request, you can tell how many times an IPFS object was requested/served to a user.
 API endpoint URL
 The main public API endpoint URL for LetoMetrics is https://leto.metrics.gg. All endpoints documented should be made relative to this root URL. 
@@ -11,6 +12,13 @@ https://leto.metrics.gg/cid/ and leto.metrics.gg will respond with something lik
 
 { "value": "/ipfs/QmPqrEHJTex2CPbqNULCmbSFJT3boBwAAfMb5UjvXtKjEe",
 "requests": "93", }
+
+## Leto.gg Metrics API Usage
+ 
+ - Give the engine a CID, and it will return if it has metrics on that specific file
+
+example of json response WIP(CURRENT FORM)
+![Screenshot 2022-12-10 at 3 42 08 AM](https://user-images.githubusercontent.com/30084404/206844865-488ff7d9-969c-44fe-9671-63e6d7140b38.png)
 
 ## Usage
 
@@ -31,13 +39,7 @@ Hello leto! 😎
 ```
 
 Please note that subdomain resolution is only supported with [CIDv1](https://docs.ipfs.io/concepts/content-addressing/#identifier-formats) in case-insensitive encoding such as Base32 or Base36. When using IPFS path resolution, the requested CID will be converted before the redirect.
- 
- - Give the engine a CID, and it will return if it has metrics on that specific file
 
-example of json response currently... localhost:2222
-![Screenshot 2022-12-10 at 3 42 08 AM](https://user-images.githubusercontent.com/30084404/206844865-488ff7d9-969c-44fe-9671-63e6d7140b38.png)
-
-transfer domain Dec 16th 2022- Cloudflare configuration checks out for now- Dec 17th
 
 ## Development Notes
 
