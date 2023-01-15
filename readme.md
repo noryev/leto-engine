@@ -10,8 +10,9 @@ The main public API endpoint URL for LetoMetrics is https://leto.metrics.gg. All
 For example, to request the /cid/ endpoint, send your request to 
 https://leto.metrics.gg/cid/ and leto.metrics.gg will respond with something like
 
-{ "value": "/ipfs/QmPqrEHJTex2CPbqNULCmbSFJT3boBwAAfMb5UjvXtKjEe",
+ ` { "value": "/ipfs/QmPqrEHJTex2CPbqNULCmbSFJT3boBwAAfMb5UjvXtKjEe",
 "requests": "93", }
+`
 
 ## Leto.gg Metrics API Usage
  
