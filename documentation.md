@@ -12,3 +12,17 @@ Configure Cloudflare to send logs to the syslog endpoint: In the Cloudflare dash
 Configure Elastic Observability: In Elastic Observability, you will need to configure the Logstash pipeline to parse the incoming logs. This can be done by creating a new pipeline and specifying the log format, parsing rules, and output destination.
 
 Verify that logs are being received: Verify that logs are being received by Elastic Observability by checking the pipeline status and reviewing the parsed logs in Kibana.
+
+# Extra Notes
+
+
+# Form-Processing
+Started with HTMLPane for preliminary implementations. Will probably move up to Node.js when it makes more sense. More information coming soon! 
+
+### Notes about Relative linking on IPFS... 
+Though it is not required, it is strongly recommended that websites hosted on IPFS use only relative links, unless linking to a different domain. This is because data can be accessed in many different (but ultimately equivalent) ways:
+
+From your custom domain: https://ipfs.tech/index.html
+From a gateway: https://cloudflare-ipfs.com/ipns/ipfs.tech/index.html
+By immutable hash: https://cloudflare-ipfs.com/ipfs/QmNksJqvwHzNtAtYZVqFZFfdCVciY4ojTU2oFZQSFG9U7B/index.html
+Using only relative links within a web application supports all of these at once, and gives the most flexibility to the user. The exact method for switching to relative links, if you do not use them already, depends on the framework you use.
